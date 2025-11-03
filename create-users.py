@@ -5,13 +5,11 @@
 # 10/27/2025
 # 10/30/2025
 
-#os command executes the adduser and passwd commands, re command focuses on helping skip the commented out lines, import sys allows you to use functions such as looking at data from stdin instead of doing it manually.
+
 import os
 import re
 import sys
 
-#YOUR CODE SHOULD HAVE NONE OF THE INSTRUCTORS COMMENTS REMAINING WHEN YOU ARE FINISHED
-#PLEASE REPLACE INSTRUCTOR "PROMPTS" WITH COMMENTS OF YOUR OWN
 
 def main():
     for line in sys.stdin:
